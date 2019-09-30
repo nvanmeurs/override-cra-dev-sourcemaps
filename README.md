@@ -6,6 +6,7 @@ The desired source map method can be passed as a param to the function, `'eval-s
 - [override-cra-dev-sourcemaps](#override-cra-dev-sourcemaps)
   - [How to install](#how-to-install)
   - [Usage](#usage)
+  - [Troubleshooting](#troubleshooting)
 
 ## How to install
 
@@ -39,3 +40,10 @@ In your `package.json` replace your scripts section with:
 }
 ```
 
+## Troubleshooting
+
+If you have trouble installing this package, please create a `.npmrc` file in the root of your project and add the following statement to it:
+
+```npm
+@nekoniri:registry=https://npm.pkg.github.com
+```
