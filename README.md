@@ -18,31 +18,15 @@ This project relies on [`react-app-rewired`](https://github.com/timarney/react-a
 npm install --save-dev customize-cra react-app-rewired
 ```
 
-
-## Overview
-
-`customize-cra` takes advantage of `react-app-rewired`'s `config-overrides.js` file. By importing `customize-cra` functions and exporting a few function calls wrapped in our `override` function, you can easily modify the underlying config objects (`webpack`, `webpack-dev-server`, `babel`, etc.) that make up `create-react-app`.
-
 ## Usage
 
-**Note:** all code should be added to `config-overrides.js` at the same level as `package.json`.
-
-See the [api docs](api.md) for documentation for each function.
-
-### With `webpack`
-
-To use these plugins, import the `override` function, and call it with whatever plugins you need. Each of these plugin invocations will return a new function, that `override` will call with the newly modified config object. Falsy values will be ignored though, so if you need to conditionally apply any of these plugins, you can do so like below.
+To override the sourcemaps add the following code to `config-overrides.js` at the same level as your `package.json`.
 
 For example:
 
 ```js
 const {
   override,
-  addDecoratorsLegacy,
-  disableEsLint,
-  addBundleVisualizer,
-  addWebpackAlias,
-  adjustWorkbox
 } = require("customize-cra");
 const path = require("path");
 
