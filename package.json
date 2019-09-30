@@ -1,5 +1,5 @@
 {
-  "name": "@nekoniri/override-cra-sourcemaps",
+  "name": "@nekoniri/override-cra-dev-sourcemaps",
   "version": "0.1.0",
   "description": "Override the default configured devtools in create-react-app applications",
   "main": "index.js",
