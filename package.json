@@ -1,0 +1,29 @@
+{
+  "name": "@nekoniri/override-cra-sourcemaps",
+  "version": "0.1.0",
+  "description": "Override the default configured devtools in create-react-app applications",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekoniri/override-cra-sourcemaps.git"
+  },
+  "keywords": [
+    "override",
+    "create-react-app",
+    "sourcmaps"
+  ],
+  "author": "Nekoniri <1681034+Nekoniri@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nekoniri/override-cra-sourcemaps/issues"
+  },
+  "homepage": "https://github.com/Nekoniri/override-cra-sourcemaps#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "peerDependencies": {
+    "customize-cra": "^0.8.0",
+    "react-app-rewired": "^2.1.3"
+  }
+}
