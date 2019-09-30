@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nekoniri/override-cra-sourcemaps.git"
+    "url": "git+https://github.com/Nekoniri/override-cra-dev-sourcemaps.git"
   },
   "keywords": [
     "override",
@@ -16,9 +16,9 @@
   "author": "Nekoniri <1681034+Nekoniri@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nekoniri/override-cra-sourcemaps/issues"
+    "url": "https://github.com/Nekoniri/override-cra-dev-sourcemaps/issues"
   },
-  "homepage": "https://github.com/Nekoniri/override-cra-sourcemaps#readme",
+  "homepage": "https://github.com/Nekoniri/override-cra-dev-sourcemaps#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
